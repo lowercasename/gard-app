@@ -1,0 +1,156 @@
+let frontMale = [
+  ["á", "Eternal", "ᚪ"],
+  ["ælf", "Elven", "ᚫᛚᚠ"],
+  ["æðel", "Noble", "ᚫᚦᛖᛚ"],
+  ["beald", "Bold", "ᛒᛠᛚᛞ"],
+  ["beorht", "Bright", "ᛒᛇᚱᚻᛏ"],
+  ["beorn", "Warrior", "ᛒᛇᚱᚾ"],
+  ["brún", "Brown", "ᛒᚱᚢᚾ"],
+  ["cén", "Bold", "ᚳᛖᚾ"],
+  ["céol", "Ship", "ᚳᛇᛚ"],
+  ["cúð", "Renowned", "ᚳᚢᚦ"],
+  ["cyne", "Kingly", "ᚳᚣᚾᛖ"],
+  ["déor", "Dear", "ᛞᛇᚱ"],
+  ["éad", "Rich", "ᛠᛞ"],
+  ["eall", "All", "ᛠᛚᛚ"],
+  ["ealh", "Temple", "ᛠᛚᚻ"],
+  ["eald", "Old", "ᛠᛚᛞ"],
+  ["ecg", "Blade", "ᛖᚳᚷ"],
+  ["eofor", "Boar", "ᛇᚠᚩᚱ"],
+  ["eoh", "Horse", "ᛇᚻ"],
+  ["eorcen", "Pure", "ᛇᚱᚳᚪᚾ"],
+  ["engel", "Anglian", "ᛖᛝᛖᛚ"],
+  ["frið", "Peaceful", "ᚠᚱᛁᚦ"],
+  ["glæd", "Gleaming", "ᚷᛚᚫᛞ"],
+  ["gód", "Good", "ᚷᚩᛞ"],
+  ["grim", "Fierce", "ᚷᚱᛁᛗ"],
+  ["gúð", "Combat", "ᚷᚢᚦ"],
+  ["here", "Army", "ᚻᛖᚱᛖ"],
+  ["hild", "Battle", "ᚻᛁᛚᛞ"],
+  ["hroð", "Famous", "ᚻᚱᚩᚦ"],
+  ["léof", "Beloved", "ᛚᛇᚠ"],
+  ["óht", "Fearsome", "ᚩᚻᛏ"],
+  ["ós", "Divine", "ᚩᛋ"],
+  ["ríc", "Powerful", "ᚱᛁᚳ"],
+  ["sæ", "Sea", "ᛋᚫ"],
+  ["sige", "Victorious", "ᛋᛁᚷᛖ"],
+  ["stíð", "Hard", "ᛋᛏᛁᚦ"],
+  ["sunu", "Son's", "ᛋᚢᚾᚢ"],
+  ["swíð", "Strong", "ᛋᚹᛁᚦ"],
+  ["þunor", "Thor", "ᚦᚢᚾᚩᚱ"],
+  ["þéod", "People's", "ᚦᛇᛞ"],
+  ["þegn", "Thane's", "ᚦᛖᚷᚾ"],
+  ["wald", "Forest", "ᚹᚪᛚᛞ"],
+  ["wæl", "Slaughter", "ᚹᚫᛚ"],
+  ["wáð", "Wandering", "ᚹᚪᚦ"],
+  ["weald", "Powerful", "ᚹᛠᛚᛞ"],
+  ["wíg", "War", "ᚹᛁᚷ"],
+  ["wil", "Desired", "ᚹᛁᛚ"],
+  ["wine", "Friendly", "ᚹᛁᚾᛖ"],
+  ["wulf", "Wolfish", "ᚹᚢᛚᚠ"],
+  ["wyn", "Joyous", "ᚹᚣᚾ"]
+]
+let frontFemale = [
+  ["á", "Eternal", "ᚪ"],
+  ["ælf", "Elven", "ᚫᛚᚠ"],
+  ["æðel", "Noble", "ᚫᚦᛖᛚ"],
+  ["beorht", "Bright", "ᛒᛇᚱᚻᛏ"],
+  ["brún", "Brown", "ᛒᚱᚢᚾ"],
+  ["cén", "Bold", "ᚳᛖᚾ"],
+  ["céol", "Ship", "ᚳᛇᛚ"],
+  ["cúð", "Renowned", "ᚳᚢᚦ"],
+  ["cwén", "Queen's", "ᚳᚹᛖᚾ"],
+  ["déor", "Dear", "ᛞᛇᚱ"],
+  ["éad", "Rich", "ᛠᛞ"],
+  ["eall", "All", "ᛠᛚᛚ"],
+  ["ealh", "Temple", "ᛠᛚᚻ"],
+  ["eald", "Old", "ᛠᛚᛞ"],
+  ["ecg", "Blade", "ᛖᚳᚷ"],
+  ["eofor", "Boar", "ᛇᚠᚩᚱ"],
+  ["eoh", "Horse", "ᛇᚻ"],
+  ["eorcen", "Pure", "ᛇᚱᚳᚪᚾ"],
+  ["engel", "Anglian", "ᛖᛝᛖᛚ"],
+  ["gár", "Spear", "ᚷᚪᚱ"],
+  ["glæd", "Gleaming", "ᚷᛚᚫᛞ"],
+  ["gód", "Good", "ᚷᚩᛞ"],
+  ["grim", "Fierce", "ᚷᚱᛁᛗ"],
+  ["here", "Army", "ᚻᛖᚱᛖ"],
+  ["hild", "Battle", "ᚻᛁᛚᛞ"],
+  ["hroð", "Famous", "ᚻᚱᚩᚦ"],
+  ["léof", "Beloved", "ᛚᛇᚠ"],
+  ["mild", "Gentle", "ᛗᛁᛚᛞ"],
+  ["ós", "Divine", "ᚩᛋ"],
+  ["sæ", "Sea", "ᛋᚫ"],
+  ["sige", "Victorious", "ᛋᛁᚷᛖ"],
+  ["stíð", "Hard", "ᛋᛏᛁᚦ"],
+  ["swíð", "Strong", "ᛋᚹᛁᚦ"],
+  ["þunor", "Thor", "ᚦᚢᚾᚩᚱ"],
+  ["þéod", "People's", "ᚦᛇᛞ"],
+  ["þegn", "Thane's", "ᚦᛖᚷᚾ"],
+  ["wald", "Forest", "ᚹᚪᛚᛞ"],
+  ["wæl", "Slaughter", "ᚹᚫᛚ"],
+  ["wáð", "Hunt", "ᚹᚪᚦ"],
+  ["weald", "Powerful", "ᚹᛠᛚᛞ"],
+  ["wíg", "War", "ᚹᛁᚷ"],
+  ["wil", "Desired", "ᚹᛁᛚ"],
+  ["wine", "Friendly", "ᚹᛁᚾᛖ"],
+  ["wulf", "Wolf", "ᚹᚢᛚᚠ"],
+  ["wyn", "Joyous", "ᚹᚣᚾ"]
+]
+let backMale = [
+  ["beald", "Bold", "ᛒᛠᛚᛞ"],
+  ["behrt", "Bright", "ᛒᛖᚱᚻᛏ"],
+  ["beorn", "Warrior", "ᛒᛇᚱᚾ"],
+  ["dæg", "Day", "ᛞᚫᚷ"],
+  ["frið", "Peace", "ᚠᚱᛁᚦ"],
+  ["gár", "Spear", "ᚷᚪᚱ"],
+  ["héah", "High", "ᚻᛠᚻ"],
+  ["heard", "Bravery", "ᚻᛠᚱᛞ"],
+  ["helm", "Helmet", "ᚻᛖᛚᛗ"],
+  ["here", "Army", "ᚻᛖᚱᛖ"],
+  ["hún", "Young Bear", "ᚻᚢᚾ"],
+  ["láf", "Heir", "ᛚᚪᚠ"],
+  ["mære", "Fame", "ᛗᚫᚱᛖ"],
+  ["mund", "Protector", "ᛗᚢᚾᛞ"],
+  ["nóð", "Boldness", "ᚾᚩᚦ"],
+  ["ræd", "Counsel", "ᚱᚫᛞ"],
+  ["ríc", "Power", "ᚱᛁᚳ"],
+  ["sige", "Victory", "ᛋᛁᚷᛖ"],
+  ["stán", "Stone", "ᛋᛏᚪᚾ"],
+  ["þegn", "Thane", "ᚦᛖᚷᚾ"],
+  ["þunor", "Thor", "ᚦᚢᚾᚩᚱ"],
+  ["weald", "Power", "ᚹᛠᛚᛞ"],
+  ["weard", "Guardian", "ᚹᛠᚱᛞ"],
+  ["wig", "War", "ᚹᛁᚷ"],
+  ["wine", "Friend", "ᚹᛁᚾᛖ"],
+  ["wulf", "Wolf", "ᚹᚢᛚᚠ"]
+]
+let backFemale = [
+  ["burg", "City", "ᛒᚢᚱᚷ"],
+  ["flæd", "Beauty", "ᚠᛚᚫᛞ"],
+  ["gifu", "Gift", "ᚷᛁᚠᚢ"],
+  ["gyð", "Battle", "ᚷᚣᚦ"],
+  ["hild", "Battle", "ᚻᛁᛚᛞ"],
+  ["swíð", "Strength", "ᛋᚹᛁᚦ"],
+  ["ræd", "Counsel", "ᚱᚫᛞ"],
+  ["þrýð", "Might", "ᚦᚱᚣᚦ"],
+  ["wyn", "Joy", "ᚹᚣᚾ"]
+]
+
+const genders = ['male', 'female'];
+
+const generateName = (gender) => {
+  let name = [];
+  if (!gender) {
+    gender = genders[Math.floor(Math.random() * genders.length)];
+  }
+  if (gender === 'male') {
+    name = frontMale[Math.floor(Math.random() * frontMale.length)][0] + backMale[Math.floor(Math.random() * backMale.length)][0]
+  } else if (gender === 'female') {
+    name = frontFemale[Math.floor(Math.random() * frontFemale.length)][0] + backFemale[Math.floor(Math.random() * backFemale.length)][0]
+  }
+  name = name.charAt(0).toUpperCase() + name.slice(1);
+  return name;
+}
+
+export default generateName;

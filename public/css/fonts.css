@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "anglo-saxon_projectregular";
+  src: url("assets/fonts/asproj1-webfont.woff2") format("woff2"),
+    url("assets/fonts/asproj1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "harald_runicregular";
+  src: url("../fonts/haraldrunic-webfont.woff2") format("woff2"),
+    url("../fonts/haraldrunic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "runicoregular";
+  src: url("../fonts/runico-regular-webfont.woff2") format("woff2"),
+    url("../fonts/runico-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "beowulf_modernregular";
+  src: url("../fonts/beowulf_modern-webfont.woff2") format("woff2"),
+    url("../fonts/beowulf_modern-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
